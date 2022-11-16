@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.rounded {
+    display: flex;
+    justify-content: center;
+    background-color: #001117;
+
+}
+
+.red {
+    width: 865px;
+    height: 865px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange {
+    width: 730px;
+    height: 730px;
+    background-color: #ffa500;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow {
+    width: 600px;
+    height: 600px;
+    background-color: #ffff00;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.green {
+    width: 445px;
+    height: 445px;
+    background-color: #008001;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blue {
+    width: 300px;
+    height: 300px;
+    background-color: #0000ff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.purple {
+    width: 165px;
+    height: 165px;
+    background-color: #800080;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* <!-- ------------Second Task--------------- --> */
+
+.examples {
+    height: 100vh;
+}
+
+.nav_links {
+    display: flex;
+    list-style: none;
+    background-color: rgb(255, 174, 0);
+    height: 100px;
+}
+
+.nav_link {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 30px 30px 10px;
+    color: rgb(17, 150, 0);
+}
+
+.nav_link:hover {
+    color: #fff;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.nav_link.active {
+    color: #ffffff;
+}
+
+.nav_link:first-child {
+    margin-left: 500px;
+}
+
+.dis {
+    background-color: dimgrey;
+    color: linen;
+    opacity: 1;
+    width: 150px;
+    height: 50px;
+}
+
+.nav_link:last-child:hover {
+    transform: none
+}
+
+
+/* CheckBox */
+.checks span {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.checks_check {
+    width: 50px;
+    height: 50px;
+    margin: 50px;
+}
+
+.checks_check:checked {
+
+    margin-left: 500px;
+}
+
+/* Square Block */
+
+.square {
+    display: flex;
+}
+
+.square_block {
+    width: 300px;
+    height: 300px;
+    background-color: #008001;
+    margin: 50px auto;
+    border-radius: 10%;
+
+}
+
+.square_block:last-child {
+    background-color: #800080;
+    border-radius: 50%;
+}
+
+/* Visited */
+.vis {
+    margin: 100px;
+    font-size: 36px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.vis:link {
+    color: #3ea800;
+
+}
+.vis:visited {
+    color: #0000ff;
+
+}
+
+/* [attribute$=value] */
+[class$="is"] {
+    color: #ffa500;
+}
+
+.vis+.vis+.vis+.vis+.vis {
+    color: #ff0000;
+}
+
+.square_block {
+    text-align: center;
+}
+
+.square_block>p {
+    color: #fff;
+    font-size: 26px;
+    margin-top: 45%;
+}
