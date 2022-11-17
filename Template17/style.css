@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+header,
+.content,
+.about__pagetitle {
+    text-align: center;
+}
+
+.header__lists {
+    display: inline-flex;
+}
+
+.header__lists_list {
+    margin-right: 20px;
+}
+
+.header__title {
+    color: rgb(189, 7, 7);
+}
+
+.content__findtitle {
+    font-size: 1.1rem;
+}
+
+.content__text {
+    font-size: 1.1rem;
+    color: rgb(238, 181, 59);
+    text-transform: capitalize;
+}
+
+.content__pagetitle,
+.about__pagetitle {
+    color: rgb(196, 60, 123);
+    font-size: 2rem;
+    margin: 10px;
+}
+
+
+/* Urunler */
+.content {
+    margin-right: auto;
+}
+
+.content__product {
+    width: 300px;
+    padding: 30px;
+    margin: 10px 0;
+    display: block;
+    border: 1px solid lightgrey;
+    margin: 20px auto;
+
+}
+
+.content__product_img {
+    width: 300px;
+}
+
+.content__product__name {
+    font-size: 1.3rem;
+}
+
+/* About */
+.about__title {
+    font-size: 1.2rem;
+    color: rgb(238, 181, 59);
+}
+
+.about__text {
+    font-size: 1.1rem;
+}
+
+
+/* -----------Task Google-------------- */
+
+.google {
+    box-shadow: 0 0 20px #000;
+    text-align: center;
+    width: 50%;
+    margin: 100px auto 0;
+}
+
+.google_middle__input {
+    display: block;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px auto 10px;
+}
+
+.google__middle__btn {
+    width: 160px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(89, 212, 136);
+    cursor: pointer;
+}
+
+/* Google Footer */
+.google_footer {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.google_footer__block {
+    background-color: aqua;
+    margin-top: 50px;
+    width: 30%;
+    text-align: center;
+padding: 15px;
+}
+
+.google_footer__block--modifier {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.google_footer__block_input
+{
+    margin: 10px 10px;
+    width: 150px;
+}
+.google_footer__copyright{
+    text-align: center;
+    display: block;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+a:hover{
+    color: rgb(231, 127, 8);
+}
